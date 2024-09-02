@@ -3,12 +3,13 @@
 <body>
     <title>The Archive of Lost Things</title>
 </head>
+
 <body style="background-color:PowderBlue;">
 
     <h1>The Archive of Lost Things</h1>
 
-    <marquee behavior="move" direction="left" style="display: block; margin-bottom: 20px;">
-        My keys are lost!!! My Dog is lost!!! I lost my Boyfriend!!! My phone is lost!! I lost my mind!!! I lost my clothes!!!
+    <marquee behavior="scroll" direction="left"  scrollamount="40">
+        My keys are lost!!! My Dog is lost!!! I lost my friend!!! My phone is lost!! I lost my mind!!! I lost my clothes!!!
          My backpack is lost!!! I lost my glasses!!! I lost my shoes!!! My airpods are missing!!! I can't find my wallet!!!
         </marquee>
 
@@ -17,33 +18,55 @@
 
         <!-- Another image moving around in a different pattern -->
         <marquee behavior="move" direction="down" style="display: block; margin-bottom: 10px;">
-            <img src="images/back-pack.png" 
-             alt="the-back-pack"  width="50" height="50">
+            <img src="images/the-lost-backpack.png" 
+             alt="the-lost-backpack"  width="50" height="50">
+        </marquee>
+
+        <marquee behavior="move" direction="left" style="display: block; margin-bottom: 20px;">
+           <textarea rows="5" cols="30" placeholder="Maybe I le my phone at home?"></textarea>
+
         </marquee>
 
         <!-- The first image scrolls to the left -->
-        <marquee behavior="move" direction="left" style="display: block; margin-bottom: 20px;">
+        <marquee behavior="scroll" direction="left" scrollamount="18">
             <img src="images/keys.png" 
                  alt="keys"  width="50" height="50">
+        </marquee>
+
+        <marquee behavior="move" direction="right" style="display: block; margin-bottom: 20px;">
+            <textarea rows="5" cols="30" placeholder="When was the last time I saw my dog? Did I leave the front door open?"></textarea>
+
+        </marquee>
+
+        <marquee behavior="move" direction="down" style="display: block; margin-bottom: 20px;">
+            <textarea rows="5" cols="30" placeholder="My keys aren't in my pocket. Did I drop them somewhere?"></textarea>
         </marquee>
 
         <!-- The first image scrolls to the left -->
         <marquee behavior="move" direction="down" style="display: block; margin-bottom: 20px;">
             <img src="images/lost-clothes.png" 
-                 alt="lost-clothes"  width="40" height="40">
+                 alt="lost-clothes"  width="60" height="40">
         </marquee>
 
+        <marquee behavior="scroll" direction="left" scrollamount="18">
+            <textarea rows="5" cols="30" placeholder=" When was the last time I had my backpack?"></textarea>
+        </marquee>
+
+        <div class="right">
+         <marquee behavior="move" direction="down" style="display: block; margin-bottom: 20px;">
+            <textarea rows="5" cols="30" placeholder="Where did I put my red shirt?"></textarea>
+         </marquee>
+        </div>
+
         <!-- Another image moving around in a different pattern -->
-        <marquee behavior="alternate" direction="right" style="display: block; position: absolute; width: 100%; height: 100%;">
-            <marquee behavior="alternate" direction="up" style="height: 100%;">
-                <img src="images/finding-phone.png" 
-                 alt="finding-phone"  width="50" height="50">
+        <marquee behavior="alternate" direction="right" style="display: block; position: absolute; width: 100%; height: 100%;" >
+            <textarea rows="5" cols="30" placeholder=" Why did my friend and I stop hanging out? Did we have a fight? I miss them..."></textarea>
         </marquee>
 
         <!-- The first image scrolls to the left -->
         <marquee behavior="move" direction="down" style="display: block; margin-bottom: 20px;">
             <img src="images/lost-glasses.png" 
-                 alt="lost-glasses"  width="40" height="40">
+                 alt="lost-glasses"  width="60" height="40">
         </marquee>
 
         <!-- The first image scrolls to the left -->
@@ -52,6 +75,11 @@
                  alt="lost-shoe"  width="40" height="40">
         </marquee>
 
+        <!-- The first image scrolls to the left -->
+        <marquee behavior="scroll" direction="left" scrollamount="18">
+            <img src="images/friend.png" 
+                alt="keys"  width="70" height="50">
+
          <!-- The first image scrolls to the left -->
          <marquee behavior="move" direction="left" style="display: block; margin-bottom: 20px;">
             <img src="images/lost-wallet.png" 
@@ -59,10 +87,31 @@
         </marquee>
 
         <!-- The first image scrolls to the left -->
-        <marquee behavior="move" direction="left" style="display: block; margin-bottom: 20px;">
+        <marquee behavior="move" direction="right" style="display: block; margin-bottom: 20px;">
             <img src="images/missing-airpod.png" 
                  alt="missing-airpod"  width="50" height="50">
         </marquee>
+
+        <marquee behavior="scroll" direction="right" scrollamount="30" style="display: block; margin-bottom: 20px;">
+            <textarea rows="5" cols="30" placeholder=" Did my mom ever give my airpods back?"></textarea>
+        </marquee>
+
+        <!-- The first image scrolls to the left -->
+        <marquee behavior="scroll" direction="left" scrollamount="18">
+            <figure role="img" aria-labelledby="fox-caption">
+                <pre>
+                                 .--~~,__
+                    :-....,-------`~~'._.'
+                     `-,,,  ,_      ;'~U'
+                      _,-' ,'`-__; '--.
+                     (_/'~~      ''''(;
+          </pre>
+                <figcaption id="fox-caption">
+                      Woof! Woof! Woof!
+                </figcaption>
+          </figure>
+        </marquee>
+     
 
     </center>
 </body>
